@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quentin Bolloré</title>
+    <meta name="description" content="Bienvenue sur mon Portfolio !">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./ressources/icons-pack/souvenir.svg">
+  </head>
+  <body>
+        <header id="accueil">
+            <nav>
+                <a href="#accueil">Accueil</a>
+                <a href="#projects">Projets</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="hero-section">
+                <h1 class="main-heading"></h1>
+                
+                <a href="#projects" class="hero-btn hero-btn-1">
+                    <span>Project</span>
+                        <img src="ressources/icons/checked.svg" alt="#projects">
+                </a>
+                <a href="#contact" class="hero-btn hero-btn-2">
+                    <span>Contact</span>
+                   <img src="ressources/icons/instagram.svg">
+                </a>
+            <div class="description">
+                <span>Passionné par l'informatique depuis plusieurs années, je souhaite acquérir tout au long de mon parcours en tant qu'étudiant à Epitech, des compétences qui me permettront de me perfectionner dans ce domaine.</span>
+            </div>
+            </div>
+        </header>
+        <script src="script.js"></script>
+
+        <main>
+            <section class="project-section" id="projects">
+                <div class="negative-container container">
+
+                    <p class="surtitle">Project d'Epitech</p>
+                    <h2 class="heading-2">Quelques projets réalisés pendant ma 1ère Année !</h2>
+
+                    <div class="project-container project-1">
+                        <img src="ressources/corewar.png">
+                        <div class="project-description">
+                            <h3 class="project-heading">Corewar</h3>
+                            <p>Réalisation d'une "arène" virtuelle dans laquelle vont s’affronter des programmes (les "champions") et conception d'un assembleur permettant de compiler ces champions.</p>
+                            <a href="https://github.com/Molaryy/Corewar" class="project-link">Github</a>
+                        </div>
+
+                    </div>
+
+                    <div class="project-container project-2">
+                        <div class="project-description">
+                            <h3 class="project-heading">RPG</h3>
+                            <p>Implémentation d'un jeu de type Role-Playing Game en utilisant la bibliothèque CSFML.</p>
+                            <a href="https://github.com/quentinbol/RPG" class="project-link">Github</a>
+                        </div>
+                        <img src="ressources/rpg.png">
+
+                    </div>
+
+                    <div class="project-container project-3">
+                        <img src="ressources/epytodo.png">
+                        <div class="project-description">
+                            <h3 class="project-heading">Epytodo</h3>
+                            <p>Conception et développement d'un site web de gestion de tâches (avec une architecture de base de données MySQL et un serveur web en Node.js/Express).</p>
+                            <a href="https://github.com/quentinbol/Epytodo" class="project-link">Github</a>
+                        </div>
+
+                    </div>
+
+                    <div class="project-container project-4">
+                        <div class="project-description">
+                            <h3 class="project-heading">Dante</h3>
+                            <p>Élaboration d'un algorithme de génération de labyrinthe et d'un algorithme de résolution efficace.</p>
+                            <a href="https://github.com/quentinbol/Dante" class="project-link">Github</a>
+                        </div>
+                        <img src="ressources/dante.png">
+
+                    </div>
+
+                    <div class="project-container project-5">
+                        <img src="ressources/minishell.png">
+                        <div class="project-description">
+                            <h3 class="project-heading">Minishell</h3>
+                            <p>Serie de trois projets axés sur le développement d'un interpréteur de commandes (shell) offrant des fonctionnalités similaires à celles du TCSH.</p>
+                            <a href="https://github.com/quentinbol/Minishell" class="project-link">Github</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="parallax">
+
+                <p class="name">Quentin Bolloré</p>
+                <p class="function">Programmeur</p>
+
+            </section>
+
+            <section class="contact" id ="contact">
+
+                <div class="rounded-contact">
+                    <p class="surtitle">Merci d'avoir regardé mon PortFolio !</p>
+                    <h2 class="heading-2">Voici où tu peux me contacter</h2>
+
+                    <ul class="contact-list">
+                        <li>
+                          <span>quentin.bollore@epitech.eu</span>
+                          <img src="ressources/icons/email-envelope.svg" alt="email">
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com/qntboll/">Instagram</a>
+                          <img src="ressources/icons/instagram.svg" alt="https://www.instagram.com/qntboll/">
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/in/quentin-bollor%C3%A9-668233262/">Linkedin</a>
+                          <img src="ressources/icons/linkedin.svg" alt="https://www.linkedin.com/in/quentin-bollor%C3%A9-668233262/">
+                        </li>
+                      </ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <a href="#">&copy; Tous droits réservés</a>
+        </footer>
+  </body>
+  </html>
